@@ -1,0 +1,122 @@
+body 
+
+{
+background-color: skyblue;
+font-family: sans-serif;
+}
+  
+section
+
+{
+background-color: lightyellow;
+border: black 1px solid;
+padding: 10px 30px;
+margin: 10px;
+width: 50%;
+}
+  
+table
+
+{
+margin-left: auto;
+margin-right: auto;
+}
+  
+section.enero table 
+
+{
+border-collapse: collapse;
+border: none;
+text-align: center;
+}
+  
+section.enero caption 
+
+{
+font-style: oblique;
+font-weight: bold;
+letter-spacing: 5px;
+}
+  
+section.enero td 
+
+{
+width: 40px;
+border-left: none;
+border-right: none;
+}
+  
+section.enero th 
+
+{
+width: 40px;
+border-left: none;
+border-right: none;
+border-top: none;
+}
+  
+section.febrero table 
+
+{
+border: none;
+border-collapse: collapse;
+text-align: right;
+}
+
+section.febrero caption 
+
+{
+font-weight: bold;
+text-align: right;
+}
+
+section.febrero th
+
+{
+border-top: none;
+border-bottom: none;
+padding-right: 5px;
+}
+
+section.febrero td 
+
+{
+border-top: none;
+border-bottom: none;
+font-size: 150%;
+padding-right: 5px;
+width: 40px;
+}
+  
+section.marzo table 
+
+{
+border: black 1px solid;
+border-collapse: collapse;
+text-align: left;
+}
+
+section.marzo th 
+
+{
+  text-align: center;
+}
+
+section.marzo caption 
+
+{
+font-variant: small-caps;
+letter-spacing: 10px;
+margin-bottom: 5px;
+text-align: left;
+}
+
+section.marzo td
+
+{
+width: 50px;
+height: 50px;
+padding-left: 5px;
+font-size: 60%;
+vertical-align: top;
+}
